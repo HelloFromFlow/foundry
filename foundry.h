@@ -53,7 +53,7 @@ static inline bool foundryLog(const char* topic, const char* description) {
     return true;
 }
 
-static inline bool foundyClean() {
+static inline bool foundryClean() {
     foundryApplicationData appData = foundryRegisterApplication(NULL, NULL);
 
     if (!strcmp(appData.appName, "n/a") || !strcmp(appData.filepath, "n/a")) return false;
