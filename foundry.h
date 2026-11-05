@@ -1,5 +1,5 @@
-#ifndef LATHE_H
-#define LATHE_H
+#ifndef FOUNDRY_H
+#define FOUNDRY_H
 
 
 #include <stdio.h>
